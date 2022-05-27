@@ -15,7 +15,7 @@ Em desenvolvimento.
 
 ##  Acesso ao repositório
 
-**Basta baixa-lo pelo github pelo link: https://github.com/Gabriel-Peres-Dias/java-basico-loiane-groner.
+**Basta baixa-lo pelo github pelo link: https://github.com/Gabriel-Peres-Dias/Java-basico-loiane-groner.
 ##  Abrir e rodar o projeto
 
 **Para utilizar o projeto que contém no repositório, será necessário o JDK 8 e uma/um IDE/Editor de código-fonte.
