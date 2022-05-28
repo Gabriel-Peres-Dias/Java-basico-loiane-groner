@@ -1,7 +1,9 @@
-public class Argumentos {
+package aula_2.src;
 
-    public static void main(String[] args) {
-        System.out.println("Voce digitou " + args[1]);
+
+public class Argumentos {
+    public static void main(String[] args){
+        System.out.println("Voce digitou ");
     }
     
 }
