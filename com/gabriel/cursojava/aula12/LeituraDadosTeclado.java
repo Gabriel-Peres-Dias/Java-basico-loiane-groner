@@ -29,6 +29,7 @@ public class LeituraDadosTeclado {
         double altura = scan.nextDouble();
         System.out.println("Sua altura é: " + altura);
 
+        //Leitura de mais de um dado por vez
         System.out.println("Digite seu primeiro nome, idade, quantidade de filhos, altura, e se possui pet: ");
         String primeiroNome1 = scan.next();
         int idade1 = scan.nextInt();
