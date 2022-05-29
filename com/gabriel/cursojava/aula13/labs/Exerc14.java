@@ -13,7 +13,8 @@ public class Exerc14 {
         double tamanhoArquivo = scan.nextDouble();
         double velocidadeDownload = scan.nextDouble();
         double tempoEstimado = (tamanhoArquivo / velocidadeDownload) * 60;
-        System.out.println("Tempo estimado para o download são " + tempoEstimado + " minutos.");
+        System.out.println("Tempo estimado para o download são " + 
+        tempoEstimado + " minutos.");
 
     }
 }
