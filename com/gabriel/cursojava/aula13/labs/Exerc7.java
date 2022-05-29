@@ -8,10 +8,9 @@ public class Exerc7 {
         
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Informe a base e a altura do seu quadrado: ");
-        double base = scan.nextDouble();
-        double altura = scan.nextDouble();
-        double area = base * altura;
+        System.out.println("Entre com o tamanho do lado do quadrado: ");
+        double lado = scan.nextDouble();
+        double area = Math.pow(lado, 2);
         double dobro = area * 2;
         System.out.println("O dobro da área do quadrado é: " + dobro);
     }

@@ -10,8 +10,7 @@ public class Exerc6 {
 
         System.out.println("Informe o raio de um círculo: ");
         double raio = scan.nextDouble();
-        final double PI = 3.14;
-        double area = PI * ( raio * raio);
+        double area = Math.PI * Math.pow(raio, 2);
         System.out.println("A área do Círucula é: " + area);
     }
 }

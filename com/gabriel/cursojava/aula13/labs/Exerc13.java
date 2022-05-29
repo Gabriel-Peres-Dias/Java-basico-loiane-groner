@@ -8,20 +8,21 @@ public class Exerc13 {
         
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Quanto você ganha por hora? E seu número de horas trabalhadas por mês?");
+        System.out.println("Quanto você ganha por hora? E seu número de horas"+
+        "trabalhadas por mês?");
         double ganhoHora = scan.nextDouble();
         double horasMes = scan.nextDouble();
         double salarioBruto = ganhoHora * horasMes;
 
         double impostoRenda = (salarioBruto * 0.11);
-        double INSS = (salarioBruto * 0.08);
+        double inss = (salarioBruto * 0.08);
         double sindicato = (salarioBruto * 0.05);
-        double salarioLiquido = salarioBruto - impostoRenda - INSS - sindicato;
+        double salarioLiquido = salarioBruto - impostoRenda - inss - sindicato;
 
         System.out.println("---Dados sobre seu Salário---");
         System.out.println("Sálario Bruto: " + salarioBruto);
         System.out.println("Valor pago do Imposto de renda: " + impostoRenda);
-        System.out.println("Valor pago ao INSS: " + INSS);
+        System.out.println("Valor pago ao INSS: " + inss);
         System.out.println("Valor pago ao Sindicato: " + sindicato);
         System.out.println("Sálario Liquido: " + salarioLiquido);
         

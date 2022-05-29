@@ -8,7 +8,8 @@ public class Exerc8 {
         
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Qaunto você ganha por hora? E quantas horas trabalha por mês?");
+        System.out.println("Qaunto você ganha por hora? E quantas horas "+
+        "trabalha por mês?");
         double ganhoHora = scan.nextDouble();
         double horaMes = scan.nextDouble();
         double salario = ganhoHora * horaMes;
