@@ -1,4 +1,4 @@
-package aula_2.src;
+package com.gabriel.cursojava.aula2.src;
 
 
 public class Argumentos {
