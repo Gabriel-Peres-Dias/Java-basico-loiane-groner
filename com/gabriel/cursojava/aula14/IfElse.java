@@ -17,11 +17,6 @@ public class IfElse {
                 System.out.println("Não é maior de idade!");
             }
 
-            //barato <= 10
-            //10 < valor < 15 = pedir desconto
-            //15 <= valor 17 = pesquisar mais
-            //>= 17 = muito caro
-
             System.out.println("Entre com um valor do produto:");
             double valor = scan.nextDouble();
 
